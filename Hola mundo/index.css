@@ -1,0 +1,10 @@
+img {
+    display: flex;
+    height: 10%;
+    width: 10%;
+    border-radius: 10%;
+}
+
+* {
+    font-size: larger;
+}
