@@ -5,7 +5,7 @@ function Contenido() {
 
     function actualizarContenido() {
         videos.forEach(video => video.style.display = mostrarVideos ? 'block' : 'none');
-        boton.textContent = mostrarVideos ? 'Ocultar videos' : 'Mostrar videos';
+        boton.textContent = mostrarVideos ? 'Ocultar videos' : 'Mostrar video';
     }
 
     actualizarContenido();
