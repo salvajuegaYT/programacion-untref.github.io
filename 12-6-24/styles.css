@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-size: 16px; /* Reduce overall font size */
 }
 
 /* Header and Navigation */
@@ -22,13 +23,14 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px; /* Reduce spacing */
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.875rem; /* Smaller font size */
 }
 
 nav ul li a:hover {
@@ -40,7 +42,7 @@ main {
     padding: 20px;
     background: #fff;
     margin: 20px auto;
-    max-width: 1000px;
+    max-width: 900px; /* Reduce max-width */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -50,6 +52,11 @@ section {
 
 h1, h2 {
     color: #333;
+    font-size: 1.5rem; /* Smaller font size */
+}
+
+p {
+    font-size: 0.875rem; /* Smaller font size */
 }
 
 /* Gallery */
@@ -67,6 +74,12 @@ h1, h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
 /* Footer */
 footer {
     background: #333;
@@ -81,4 +94,5 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 0.75rem; /* Smaller font size */
 }
