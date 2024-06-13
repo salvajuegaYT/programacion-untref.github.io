@@ -1,12 +1,14 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    font-size: 14px;
+    font-size: 12px; /* Más pequeño */
 }
 
+/* Header and Navigation */
 header {
     background: #333;
     color: #fff;
@@ -28,41 +30,43 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px; /* Más pequeño */
 }
 
 nav ul li a:hover {
     color: #ffa500;
 }
 
+/* Main Content */
 main {
     padding: 20px;
     background: #fff;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 800px; /* Ajustado */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 20px; /* Menos espacio */
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px; /* Más pequeño */
     text-align: center;
     color: #333;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px; /* Más pequeño */
     color: #333;
 }
 
 p {
-    font-size: 14px;
+    font-size: 12px; /* Más pequeño */
     color: #666;
 }
 
+/* Gallery */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +75,7 @@ p {
 }
 
 .gallery img {
-    max-width: 90%;
+    max-width: 80%; /* Ajustado */
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
@@ -79,11 +83,12 @@ p {
 }
 
 iframe {
-    max-width: 70%;
+    max-width: 80%; /* Ajustado */
     height: auto;
     border: none;
 }
 
+/* Footer */
 footer {
     background: #333;
     color: #fff;
@@ -94,17 +99,18 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 12px;
+    font-size: 10px; /* Más pequeño */
 }
 
-@media (max-width: 1600px) {
+/* Responsive Adjustments */
+@media (max-width: 768px) {
     nav ul li {
         display: block;
         margin: 10px 0;
     }
 
     nav ul li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     main {
@@ -113,18 +119,18 @@ footer p {
     }
 
     h1 {
-        font-size: 20px;
-    }
-
-    h2 {
         font-size: 18px;
     }
 
+    h2 {
+        font-size: 14px;
+    }
+
     p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     footer p {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
