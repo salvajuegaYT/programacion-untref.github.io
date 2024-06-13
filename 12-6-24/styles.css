@@ -107,7 +107,7 @@ footer p {
     font-size: 14px; /* Aumentado */
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     /* Estilos para pantallas pequeñas (móviles y tablets) */
     h1 {
         font-size: 20px;
