@@ -1,11 +1,16 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
-    font-size: 12px; /* Más pequeño */
+    font-size: 14px; /* Tamaño base */
 }
 
 /* Header and Navigation */
@@ -30,7 +35,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px; /* Más pequeño */
+    font-size: 16px; /* Aumentado */
 }
 
 nav ul li a:hover {
@@ -42,7 +47,7 @@ main {
     padding: 20px;
     background: #fff;
     margin: 20px auto;
-    max-width: 550px; /* Ajustado */
+    max-width: 800px; /* Ajustado */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,18 +56,18 @@ section {
 }
 
 h1 {
-    font-size: 20px; /* Más pequeño */
+    font-size: 26px; /* Aumentado */
     text-align: center;
     color: #333;
 }
 
 h2 {
-    font-size: 16px; /* Más pequeño */
+    font-size: 22px; /* Aumentado */
     color: #333;
 }
 
 p {
-    font-size: 12px; /* Más pequeño */
+    font-size: 16px; /* Aumentado */
     color: #666;
 }
 
@@ -75,7 +80,7 @@ p {
 }
 
 .gallery img {
-    max-width: 80%; /* Ajustado */
+    max-width: 90%; /* Ajustado */
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
@@ -83,7 +88,7 @@ p {
 }
 
 iframe {
-    max-width: 80%; /* Ajustado */
+    max-width: 90%; /* Ajustado */
     height: auto;
     border: none;
 }
@@ -99,7 +104,7 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 10px; /* Más pequeño */
+    font-size: 14px; /* Aumentado */
 }
 
 /* Responsive Adjustments */
@@ -110,7 +115,7 @@ footer p {
     }
 
     nav ul li a {
-        font-size: 14px;
+        font-size: 14px; /* Reducido para pantallas pequeñas */
     }
 
     main {
@@ -119,18 +124,18 @@ footer p {
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 22px; /* Reducido para pantallas pequeñas */
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 18px; /* Reducido para pantallas pequeñas */
     }
 
     p {
-        font-size: 10px;
+        font-size: 14px; /* Reducido para pantallas pequeñas */
     }
 
     footer p {
-        font-size: 8px;
+        font-size: 12px; /* Reducido para pantallas pequeñas */
     }
 }
