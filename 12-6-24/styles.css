@@ -148,18 +148,18 @@ footer p {
 @media (min-width: 1025px) {
     /* Estilos para pantallas grandes (pantallas de escritorio) */
     h1 {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     p {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .gallery img {
-        max-width: 70%; /* Ajuste para imágenes en pantallas medianas */
+        max-width: 80%; /* Ajuste para imágenes en pantallas grandes */
     }
 }
