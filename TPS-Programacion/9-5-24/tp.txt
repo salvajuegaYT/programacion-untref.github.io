@@ -1,8 +1,0 @@
-Construye un formulario de datos, en base al siguiente requerimiento:
-Un campo denominado Nombre completo (70 caracteres máximo)
-Un campo denominado Fecha de nacimiento (fecha máxima “hoy”)
-Un campo denominado correo electrónico (50 caracteres máximo)
-Un campo de comentarios (limitar su texto a 500 caracteres)
-Botones de enviar y de limpiar la información del campo
-
-En todos los casos, agrega el atributo placeholder para describir la información esperada en cada campo, excepto en el campo fecha de nacimiento, donde deberás agregar el tag <label for> asociado a este, describiendo el dato esperado.
